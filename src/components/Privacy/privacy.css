@@ -1,0 +1,23 @@
+.input_row_div_privacy {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.input_div_privacy {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.input_double {
+  width: 50ch;
+}
+.input {
+  width: 101ch;
+}
+
+.button_div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

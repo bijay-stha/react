@@ -1,0 +1,60 @@
+.event_add_form {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.event_add_textfield_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.event_add_textfield_div_double {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.event_add_textfield_small_div {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.event_add_textfield {
+  color: white;
+  width: 101ch;
+}
+.event_add_textfield_small {
+  width: 50ch;
+}
+.evrnt_list_card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--horinav) !important;
+}
+.event_list_card_div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.event-list-nonexpand {
+  background-color: rgb(233, 243, 252) !important;
+}
+.event-list-expand {
+  background-color: rgb(221, 226, 230) !important;
+}
+.addevent-img {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.img-event {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+.event-button {
+  margin-top: 20px;
+  margin-left: 10px;
+}

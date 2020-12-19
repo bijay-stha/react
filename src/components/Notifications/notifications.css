@@ -1,0 +1,115 @@
+.notification-card-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.notification-card-div-birthday {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--horinav) !important;
+}
+.notification-card-birthday-title {
+  margin-top: 10px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.notification-card-div-birthday-list {
+  margin-top: 10px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 10px !important;
+  border-radius: 30px !important;
+  background-color: rgb(17, 178, 199) !important;
+}
+.notification-card-div-birthday-list:hover {
+  margin-top: 10px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 10px !important;
+  border-radius: 30px !important;
+  background-image: linear-gradient(
+    to right,
+    rgb(221, 25, 25),
+    rgb(16, 233, 150)
+  ) !important;
+}
+.notification-card-div-birthday-list-div {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.notification-card-div-user-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.notification-card-div-user-name {
+  font-family: "Crimson Text" !important;
+  color: var(--horinav);
+  margin-left: 20px;
+  font-size: 27px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.notification-card-event-list-div {
+  display: flex;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.notification-img-div {
+  display: flex;
+  margin-right: 20px;
+}
+.notification-img {
+  width: 150px;
+  height: 150px;
+}
+.notification-event-detail {
+  display: flex;
+  flex-direction: column;
+}
+.notification-card-event-title {
+  font-family: "IBM Plex Serif" !important;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--horinav);
+}
+.notification-card-event-title-details {
+  font-family: "Open Sans" !important;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--horinav);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification-card-event-details {
+  font-family: "Open Sans" !important;
+  color: var(--horinav);
+  display: inline-flex;
+  width: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px !important;
+  margin-top: 30px;
+  font-size: 15px;
+}

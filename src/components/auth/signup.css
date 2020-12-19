@@ -1,0 +1,35 @@
+.signup_card_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-top: 70px;
+}
+.input_single {
+  width: 101ch;
+}
+.select_double {
+  width: 43.8ch;
+}
+
+.input_div {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.input_double {
+  width: 50ch;
+}
+
+.input_div_double {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.button_div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

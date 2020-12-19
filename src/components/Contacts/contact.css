@@ -1,0 +1,93 @@
+.user_panel {
+  width: 87%;
+  height: 100%;
+  background-color: var(--horinav);
+  margin-left: 160px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.user-list-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-color: #20d4d4;
+}
+.user-list-name {
+  font-family: "Crimson Text" !important;
+  font-weight: 500 !important;
+  color: var(--nameblack);
+}
+.user-list-email {
+  font-family: "Crimson Text" !important;
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  color: #646566;
+}
+.mininotification-main-div {
+  width: 20%;
+  margin-left: 630px;
+  position: fixed;
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+  .mininotification-main-div {
+    width: 20%;
+    margin-left: 450px;
+    position: fixed;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .mininotification-main-div {
+    width: 20%;
+    margin-left: 130px;
+    position: fixed;
+  }
+}
+.userdetail-img {
+  width: 230px;
+  height: 240px;
+  border-radius: 30%;
+  border: solid;
+}
+.user-detail-name-post-div {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.userdetail-name {
+  font-family: "Crimson Text";
+  font-weight: 500;
+  font-size: 45px;
+  color: var(--nameblack);
+}
+.userdetail-post {
+  font-family: "Crimson Text";
+  font-weight: 600;
+  font-size: 22px;
+  color: #646566;
+}
+.userdetail-phone-title {
+  font-family: "IBM Plex Serif";
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  color: black;
+}
+.user-detail-workphone-title {
+  font-family: "IBM Plex Serif";
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.user-detail-workphone {
+  font-family: "Crimson Text";
+  font-weight: 600;
+  font-size: 22px;
+}

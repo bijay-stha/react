@@ -1,0 +1,94 @@
+.main-card-div {
+  display: flex;
+  flex-direction: column;
+}
+.card_profile {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--horinav) !important;
+  height: 20%;
+  margin-right: 20px;
+}
+.card_image_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.card_image {
+  margin-top: 20px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.card_name {
+  font-size: 40px;
+}
+.card_post {
+  font-size: 20px;
+}
+.input_row_div {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.input_row_div_title {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.input_div {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.input_div_title {
+  padding-left: 10px;
+  width: 51ch;
+}
+.input_double {
+  width: 50ch;
+}
+.input_double_select {
+  width: 44ch;
+}
+.button_div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.birthday_div {
+  border-style: solid;
+  border-width: 1.5px;
+  height: 55px;
+  width: 50ch;
+  border-color: #bdbfbe;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.birthday_div:hover {
+  border-style: solid;
+  border-width: 1.5px;
+  height: 55px;
+  width: 50ch;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: black;
+}
+.education_add_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic-button-upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
